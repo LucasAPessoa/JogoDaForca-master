@@ -30,7 +30,7 @@ namespace Exibir
             while (continuar)
             {
                 Console.Clear();
-                    LoopingPlayer.StartLoop("C:\\Users\\paulo\\Desktop\\JogoDaForca-master\\JogoDaForca\\Audio\\Menu Mario.mp3");
+                    LoopingPlayer.StartLoop(@"Audio\Menu Mario.mp3");
                 ConsoleWriteCenter(titulo);
                 Console.WriteLine();
 

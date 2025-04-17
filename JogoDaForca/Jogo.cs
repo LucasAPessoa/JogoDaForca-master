@@ -147,7 +147,8 @@ namespace JogoDoMeEnforca
 
                     if (!new string(letrasDescobertas).Contains('_'))
                     {
-                        string caminho = "C:\\Users\\paulo\\Desktop\\JogoDaForca-master\\JogoDaForca\\Audio\\Tema da Vitória.mp3";
+                        // 
+                        string caminho = @"Audio\Tema da Vitória.mp3";
                         jogoTerminado = true;
                         Console.Clear();
                         using (var audioFile = new AudioFileReader(caminho))
@@ -176,7 +177,7 @@ namespace JogoDoMeEnforca
 
                     if (tentativasRestantes == 0)
                     {
-                        string caminho = "C:\\Users\\paulo\\Desktop\\JogoDaForca-master\\JogoDaForca\\Audio\\Mario game over song.mp3";
+                        string caminho = @"Audio\Mario game over song.mp3";
                         jogoTerminado = true;
                         Console.Clear();
                         using (var audioFile = new AudioFileReader(caminho))
